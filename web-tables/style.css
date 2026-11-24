@@ -1,0 +1,33 @@
+table.schedule {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+table.schedule thead{
+    background-color: rgb(99, 170, 196);
+    color: white;
+}
+td:first-child {
+    font-weight:bold;
+}
+table.schedule thead tr:first-child{
+    background-color:rgb(42, 59, 64);
+    
+}
+table.schedule td, table.schedule th {
+    padding: 6px;
+    border:1px solid black;
+}
+table.schedule td:hover {
+    background-color: rgb(209, 233, 255);
+}
+table.schedule tfoot tr:last-child
+{
+    background-color: rgb(42, 59, 64);
+    color: white;
+}
+p::first-letter {
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
